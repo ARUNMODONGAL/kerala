@@ -1,0 +1,189 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+.navbar-brand{
+    margin-right:20px;
+    padding-right: 10%;
+}
+.carousel-inner{
+    background-color: green;
+}
+h5{
+    border: 20px solid black;
+    border-width: 1px;
+}
+form{
+    background-color: beige;
+     text-align: center;
+}
+/*wayanad*/
+ #wayanad{
+    background-color: black;
+ }
+ .para-way{
+color: white;
+ }
+ .way-header{
+margin-top: 80px;
+color: white;
+font-weight: bolder;
+font-size:xx-large;
+padding-left: 450px;
+ }
+ #edakkals{
+    width: 30%;
+    height:30%;
+    border: 1px;
+    border-color: white;
+    background-color:black;
+    float: right;
+    
+ }
+ .edakkal{
+    color:white
+ }
+ img{
+    width: 300px;
+    height:300px;
+ }
+ .edakkalcontent{
+    width:60%;
+    height:30%;
+    color:white; 
+    background-color:black;   
+ }
+ #kuruva{
+   margin-top: 0%;
+   margin-right: 10px;
+    width:300px;
+    height:300px;
+    background-color:black;
+    
+ }
+
+ .kuruvacontent{
+    width:50%;
+    height:10%;
+background-color: black;
+    float:right;
+   text-align: center;
+    padding-bottom: 10px;
+ }
+ .kur{
+    margin-top: 70%;
+    padding-left: 40%;
+ }
+ .muthangacontent{
+    margin-top: 0%;
+    padding-top:0%;
+    
+    width: 60%;
+    height:30%;
+    float: right;
+    text-align: justify;
+    margin-bottom:  0%;
+    background-color: black;
+ }
+ #muthanga{
+    padding-top: 30%;
+    width: 20%;
+    height:20%;
+    background-color:black;
+ }
+ /*kannur*/
+#kannur{
+   background-color: black;
+}
+#calicut{
+   background-color: black;
+}
+#palakkad{
+   background-color: black;
+}
+#idukki{
+   background-color: black;
+}
+#home{
+  background-color: black;
+}
+.list{
+   color:aqua;
+   margin-top: 10%;
+   text-align: center;
+   font-weight: bolder;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-style:oblique
+}
+.dist{
+   width: 200px;
+   height:150px;
+}
+.container{
+   background-color: black;
+}
+h6{
+   color: aqua;
+   font-style:oblique;
+}
+#idukki{
+   background-color: black;
+}
+
+#siginpage{
+   margin: 0;
+   padding: 0;
+   background-color: #6abadeba;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+#signinpage{
+   background-color: rgb(12, 13, 12);
+}
+.login{
+  
+      width: 382px;  
+      overflow: hidden;  
+      margin: auto;  
+      margin: 20 0 0 450px;  
+      padding: 80px;  
+      background: #08f4c5;  
+      border-radius: 15px ;  
+}
+#log{  
+   width: 300px;  
+   height: 30px;  
+   border: none;  
+   border-radius: 17px;  
+   padding-left: 7px;  
+   color: blue;  
+ 
+ 
+}  
+#Pass{  
+   width: 300px;  
+   height: 30px;  
+   border: none;  
+   border-radius: 3px;  
+   padding-left: 8px;  
+     
+}  
+#Uname{  
+   width: 300px;  
+   height: 30px;  
+   border: none;  
+   border-radius: 3px;  
+   padding-left: 8px;  
+}  
+#signuppage{
+   background-color: darkcyan;
+}
+#signupform{
+   width: 382px;  
+      overflow: hidden;  
+      margin: auto;  
+      margin: 20 0 0 450px;  
+      padding: 80px;  
+      background: #08f4c5;  
+      border-radius: 15px ;  
+}
