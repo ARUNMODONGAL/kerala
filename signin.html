@@ -10,13 +10,13 @@
 <body id="signinpage">
   <h2 style="color: #3f0596;text-align: center;padding: 20px;" aria-hidden="true"></i>LOGIN </h2>
     <div class="login">
-      <form  action="validation.html" id="login" method="act" onsubmit="return verify()">
+      <form  action="./loggedin.html" id="login" method="act" onsubmit="return verify()">
         <label style="color:#2c07c0;font-size:17px;"><b>USERNAME</b></label>
         <br><br>
         <input type="text" name="Uname" id="username" placeholder="Username" required>
         <br><br>
         <label style="color:#0e2be9;font-size:17px"><b>PASSWORD</b></label>
-        <input type="PASSWORD" name="pass" id="Pass" placeholder="password" required>
+        <input type="PASSWORD" name="pass" id="Pass" placeholder="password" required minlength="8">
         <br><br>
         <button>LOGIN </button>
         <br><br>

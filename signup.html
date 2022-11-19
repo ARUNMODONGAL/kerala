@@ -10,25 +10,25 @@
 <body id="signuppage">
     <h2 style="color:rgb(10, 12, 12);text-align:center;padding: 20px;"><b>REGISTER HERE</b></h2>
     <div class="signup">
-    <form id="signupform" onsubmit="return validate()">
+    <form action="./signedup.html" id="signupform" onsubmit="return valid()">
         <label style="color:blue;font-size: 17px;">USERNAME</label>
         <br><br>
-        <input type="text" name="Uname" id="Pass" placeholder="Username">
+        <input type="text" name="Uname" id="Pass" placeholder="Username" required>
         <br><br>
         <label style="color:blue;font-size:17px;">EMAIL</label>
-        <small id="error"></small>
+        <small id="emailHelpBlock"></small>
         <br><br>
-        <input type="text" name="Uname" id="email" placeholder="EMAIL ADDRESS">
+        <input type="text" name="Uname" id="email" onkeyup="emailCheck()" placeholder="EMAIL ADDRESS" required>
         <br><br>
         <label style="color:blue;font-size:17px;">MOBILE NUMBER</label>
-        <small id="error"></small>
+        <small id="mobHelpBlock"></small>
         <br><br>
-        <input type="text" name="Uname" id="mobile" placeholder="Mobile">
+        <input type="text" name="Uname" id="mobile" onkeyup="mobCheck()" placeholder="Mobile" required>
         <br><br>
         <label style="color:blue;font-size:17px;"> PASSWORD</label>
-        <small id="error"></small>
+        <small id=""></small>
         <br><br>
-        <input type="text" name="Uname" id="Passw" placeholder="PASSWORD">
+        <input type="password" title="Use 8 or more characters with a mix of letters, numbers & symbols" name="Uname"  placeholder="PASSWORD"onkeyup="pswdCheck()" onfocus="show();" onblur="hide();" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="form-control" id="signPswd" required>
         <br><br>
         <button>REGISTER</button>
         <script src="script.js"></script>
