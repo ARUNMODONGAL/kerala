@@ -10,13 +10,13 @@
 <body id="signinpage">
   <h2 style="color: #3f0596;text-align: center;padding: 20px;" aria-hidden="true"></i>LOGIN </h2>
     <div class="login">
-      <form id="login" method="act">
-        <label style="color:#2c07c0;font-size:17px;"><b>USER NAME</b></label>
+      <form action="home.html" id="login" method="act" onsubmit="return verify()">
+        <label style="color:#2c07c0;font-size:17px;"><b>USERNAME</b></label>
         <br><br>
-        <input type="text" name="Uname" id="Pass" placeholder="Username">
+        <input type="text" name="Username" id="Username" placeholder="Username" required>
         <br><br>
         <label style="color:#0e2be9;font-size:17px"><b>PASSWORD</b></label>
-        <input type="PASSWORD" name="pass" id="Pass" placeholder="password">
+        <input type="PASSWORD" name="pass" id="Pass" placeholder="password" required minlength="8">
         <br><br>
         <input type="button" name="log" id="log" value="Log in Here">
         <br><br>
@@ -29,6 +29,7 @@
     <footer>
       <a style="text-decoration: none;color: white;"href="index.html">Back to Home Page </a>
       </footer>
+      <script src="script.js"></script>
 </body>
 </html>
   
