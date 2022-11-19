@@ -10,24 +10,26 @@
 <body id="signuppage">
     <h2 style="color:rgb(10, 12, 12);text-align:center;padding: 20px;"><b>REGISTER HERE</b></h2>
     <div class="signup">
-    <form id="signupform">
+    <form id="signupform" onsubmit="return validate()">
         <label style="color:blue;font-size: 17px;">USERNAME</label>
         <br><br>
         <input type="text" name="Uname" id="Pass" placeholder="Username">
         <br><br>
         <label style="color:blue;font-size:17px;">EMAIL</label>
+        <small id="error"></small>
         <br><br>
-        <input type="text" name="Uname" id="Pass" placeholder="EMAIL ADDRESS">
+        <input type="text" name="Uname" id="email" placeholder="EMAIL ADDRESS">
         <br><br>
-        <label style="color:blue;font-size:17px;">PASSWORD</label>
+        <label style="color:blue;font-size:17px;">MOBILE NUMBER</label>
         <br><br>
-        <input type="text" name="Uname" id="Pass" placeholder="PASSWORD">
+        <input type="text" name="Uname" id="mobile" placeholder="Mobile">
         <br><br>
-        <label style="color:blue;font-size:17px;">RE-TYPE PASSWORD</label>
+        <label style="color:blue;font-size:17px;"> PASSWORD</label>
         <br><br>
-        <input type="text" name="Uname" id="Pass" placeholder="RE-TYPE PASSWORD">
+        <input type="text" name="Uname" id="Passw" placeholder="PASSWORD">
         <br><br>
         <button>REGISTER</button>
+        <script src="script.js"></script>
 
     </form>
     </div>
