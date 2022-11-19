@@ -223,3 +223,37 @@ h6{
       background: #08f4c5;  
       border-radius: 15px ;  
 }
+
+
+
+
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+   color:darkcyan;
+ }
+ 
+ .valid:before {
+   position: relative;
+   left: -35px;
+   content: "&#10004;";
+ }
+ 
+ /* Add a red text color and an "x" icon when the requirements are wrong */
+ .invalid {
+   color: rgb(76, 0, 255);
+ }
+ 
+ .invalid:before {
+   position: relative;
+   left: -35px;
+   content: "&#10006;";
+ }
+ #message{
+   padding-left: 40%;
+  color: #000;
+  position: relative;
+ 
+  margin-top: 10px;
+
+ }
