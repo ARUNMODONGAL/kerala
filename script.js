@@ -17,7 +17,7 @@ function verify(){
 }
 
 function validate(){
-    let regex=/^([A-Za-z0-9\.-#_]+)@([A-Za-z0-9\-]+).([a-z]{2,3})(.[a-z]{2,3})?$/;
+    let regex=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
     if(regex.test(email.value)){
         error.innerHTML="Email is valid";
         error.style.color="green";
